@@ -1,7 +1,9 @@
+import Header from "../Common/Header";
+
 function UserLayout(){
     return(
         <>
-        <h1>UserLayout</h1>
+        <Header/>
         </>
     )
 }
