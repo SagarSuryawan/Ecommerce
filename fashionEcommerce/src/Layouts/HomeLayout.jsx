@@ -1,11 +1,11 @@
-import NavbarLogo from '../assets/images/ZAYRA.png';
+import NavbarLogo from '../assets/ZAYRA.png';
 import { FaUser, FaHeart, FaShoppingCart } from "react-icons/fa";
 import Footer from '../Components/Footer';
 
 function HomeLayout( {children} ) {
     return (
 
-            <div className=' bg-[#106EBE] text-[#0FFCBE] '>
+            <div className='bg-[#106EBE] text-[#0FFCBE] '>
                 
                 {/* topBar */}
                 <div className=' flex items-center justify-center h-10'>
@@ -35,7 +35,9 @@ function HomeLayout( {children} ) {
                     </div>
 
                 </div>
-                <Footer />  
+                { children }
+
+        <Footer/> 
             </div>
     )
     

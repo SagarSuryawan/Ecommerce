@@ -1,7 +1,7 @@
 import { FaInstagram } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { FaMailBulk } from "react-icons/fa";
-import footerLogo from '../assets/images/ZAYRA.png';
+import footerLogo from '../assets/ZAYRA.png';
 
 
 function Footer() {
