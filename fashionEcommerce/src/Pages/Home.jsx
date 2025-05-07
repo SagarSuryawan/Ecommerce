@@ -20,7 +20,7 @@ function HomePage(){
         <HomeLayout>
             <div className=" productCategory relative flex gap-5 m-5 justify-center itmes-center p-2 text-center hover:cursor-pointer">
 
-                    <div className=" p-2 group transition-transform duration-300 hover:scale-105">
+                    <div className=" p-2 group transition-transform duration-300 hover:scale-105 z-50">
                         <img src={mensFashion}
                         className="w-24 h-20 transition-all duration-300 ease-in-out rounded-full group-hover:scale-110 my-2"
                          alt="mensfashion" />
@@ -115,8 +115,8 @@ function HomePage(){
                      alt="banner"
                      className="w-[80%] m-auto" />
 
-                     <div className="absolute top-1/2 border border-red-800 border-2">
-                     <h1>GET EXTRA <br/> 10% OFF </h1>
+                     <div className="absolute top-1/4 left-1/5 border border-red-800 border-2 p-3">
+                     <h1 className="text-8xl text-black">GET EXTRA <br/> 10% OFF </h1>
                      <span>ON SHOPPING FOR </span>
                      </div>
                     
