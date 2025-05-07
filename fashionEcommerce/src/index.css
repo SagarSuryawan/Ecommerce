@@ -2,6 +2,10 @@
 body {
     font-family: "Bitter", serif; /* Example: 'Roboto', sans-serif */
 }
+html {
+    scroll-behavior: smooth;
+  }
+  
 /* tailwind css v4.x */
 @import "tailwindcss";
 @import "tailwindcss-animated";
