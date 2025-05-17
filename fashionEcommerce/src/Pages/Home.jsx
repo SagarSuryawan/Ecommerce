@@ -1,4 +1,5 @@
 
+import CardCarousal from "@/Components/CardCarousal";
 import { MdCurrencyRupee } from "react-icons/md";
 import HomeLayout from "../Layouts/HomeLayout";
 // import images for category
@@ -15,10 +16,23 @@ import  newArrivals from "../assets/newArrivals.jpg"
 import  banner from "../assets/banner.jpg"
 // carousel
 import Carousel from "@/Components/Carousel";
+import Highlander from "../assets/carousalImages/Highlander.webp"
+import Hoop from "../assets/carousalImages/Hoop.webp"
+import ketch from "../assets/carousalImages/ketch.webp"
+import tokiyotalkies from "../assets/carousalImages/TokyoTalkies.webp"
+import vishudh from "../assets/carousalImages/Vishudh.webp"
 
+const images = [
+    { src: Highlander, alt: "Highlander" },
+    { src: Hoop, alt: "Hoop" },
+    { src: ketch, alt: "Ketch" },
+    { src: tokiyotalkies, alt: "Tokyo Talkies" },
+    { src: vishudh, alt: "Vishudh" },
+  ]
 
 function HomePage(){
  return(
+
         <HomeLayout>
                 <div className=" productCategory relative  flex gap-5 m-5 justify-center itmes-center p-2 text-center hover:cursor-pointer">
 
@@ -111,7 +125,7 @@ function HomePage(){
                         
                 </div>
 
-                {/* banner */}
+{/* banner */}
                 <div className="banner">
                     <div className="relative m-auto cursor-pointer">
                         <img src={banner}
@@ -133,9 +147,16 @@ function HomePage(){
                     
                 </div>
 
-                {/* carousal for brands */}
+{/* carousal for brands */}
                 <div>
-                    <Carousel/>
+                    <h1 className="text-center mt-10 text-lg hover:text-black hover:text-xl hover:underline transition-all duration-800 tracking-widest  ">SHOP BY BRANDS</h1>
+                    <Carousel images={images} />
+                </div>
+
+{/* TOP COLLAB */}
+                <div>
+                    <h1 className="text-center mt-10 text-lg hover:text-black hover:text-xl hover:underline transition-all duration-800 tracking-widest  ">TOP COLLAB</h1> 
+                    <CardCarousal/>
                 </div>
                 
 
