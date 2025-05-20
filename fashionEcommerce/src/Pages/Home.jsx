@@ -158,7 +158,14 @@ function HomePage(){
                     <h1 className="text-center mt-10 text-lg hover:text-black hover:text-xl hover:underline transition-all duration-800 tracking-widest  ">TOP COLLAB</h1> 
                     <CardCarousal/>
                 </div>
-                
+{/* for him and her */}
+                <div className="productByGender relative mt-10 w-[90%] m-auto cursor-pointer">
+                    <img src="https://pictures.kartmax.in/live/original/0x0/sites/aPfvUDpPwMn1ZadNKhP7/theme/0092may(1)-e75baea8-13b0-4aa2-beae-abb89c8f7931.jpg" alt="" className="rounded-md" />
+                    <div className="flex absolute top-[80%] left-[45%]  w-[15%] justify-between rounded-md">
+                        <button className="text-black bg-[#A3A3A3] h-10 px-3 rounded-md cursor-pointer">HIM</button>
+                        <button className="text-black bg-[#A3A3A3] h-10 px-3 rounded-md cursor-pointer">HER</button>
+                    </div>
+                </div>
 
               
         </HomeLayout>
