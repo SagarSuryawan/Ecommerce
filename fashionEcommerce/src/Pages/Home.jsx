@@ -34,7 +34,7 @@ function HomePage(){
  return(
 
         <HomeLayout>
-                <div className=" productCategory relative  flex gap-5 m-5 justify-center itmes-center p-2 text-center hover:cursor-pointer">
+                <div className=" productCategory relative  flex gap-5 m-5 justify-center itmes-center p-2 text-center hover:cursor-pointer sm:">
 
                         <div className=" p-2 group transition-transform duration-300 hover:scale-105 z-50">
                             <img src={mensFashion}

@@ -4,7 +4,7 @@ import { FaUser, FaHeart, FaShoppingCart } from "react-icons/fa";
 
 function Navbar(){
     return(
-        <div className=' bg-[#106EBE] text-[#0FFCBE] '>
+        <div className=' bg-[#106EBE] text-[#0FFCBE] w-[100%]'>
 
             {/* topBar */}
             <div className=' flex items-center justify-center h-10'>
@@ -21,7 +21,7 @@ function Navbar(){
                 <input 
                 type="text" 
                 placeholder='Enter your choice'
-                className='bg-white rounded-full text-black p-1 text-center w-80 ' />
+                className='bg-white rounded-full text-black p-1 text-center w-80 md:w-60'/>
             </div>
 
         <div className='forUser flex w-24 p-2 justift-center items-center gap-2'>
