@@ -16,7 +16,7 @@ function HomeLayout( {children} ) {
                 
                             {/* Navbar */}
                 <div className="logo w-screen h-24 flex justify-between items-center px-4">
-                            <img src={NavbarLogo} alt="navbarLogo" />
+                            <img src={NavbarLogo} alt="navbarLogo" className='w-40' />
                 
                     <div className='searchBar flex justify '>
                                 <input 

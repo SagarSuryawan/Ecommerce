@@ -34,11 +34,11 @@ function HomePage(){
  return(
 
         <HomeLayout>
-                <div className=" productCategory relative  flex gap-5 m-5 justify-center itmes-center p-2 text-center hover:cursor-pointer sm:">
+                <div className="productCategory relative grid grid-cols-4 md:grid-cols-5 lg:grid-cols-10 gap-5 m-5 justify-center items-center p-2 text-center hover:cursor-pointer">
 
-                        <div className=" p-2 group transition-transform duration-300 hover:scale-105 z-50">
+                        <div className=" flex flex-col justify-centet items-center gap-3 p-2 group transition-transform duration-300 hover:scale-105 z-50 w-auto">
                             <img src={mensFashion}
-                            className="w-24 h-20 transition-all duration-300 ease-in-out rounded-full group-hover:scale-110 my-2"
+                            className="w-24 h-20 transition-all duration-300 ease-in-out rounded-full group-hover:scale-110"
                             alt="mensfashion" />
                             <p className="text-sm tracking-wide font-light tracking-wide font-light transition-transform duration-300 group-hover:scale-105 group-hover:underline">Mens Fashion</p>
 
@@ -52,65 +52,65 @@ function HomePage(){
                             </div>
                         </div>
 
-                        <div className="p-2 group transition-transform duration-300 hover:scale-105">
+                        <div className=" flex flex-col justify-centet items-center gap-3 p-2 group transition-transform duration-300 hover:scale-105 z-50 w-autop-2 group transition-transform duration-300 hover:scale-105">
                             <img src={womensFashion}
-                            className="w-24 h-20 transition-all duration-300 ease-in-out rounded-full group-hover:scale-110 my-2"
+                            className="w-24 h-20 transition-all duration-300 ease-in-out rounded-full group-hover:scale-110 "
                             alt="womensfashion" />
                             <p className="text-sm tracking-wide font-light tracking-wide font-light transition-transform duration-300 group-hover:scale-105 group-hover:underline">Womens Fashion</p>
                         </div>
 
-                        <div className="p-2 group transition-transform duration-300 hover:scale-105">
+                        <div className="flex flex-col justify-centet items-center gap-3 p-2 group transition-transform duration-300 hover:scale-105 z-50 w-auto p-2 group transition-transform duration-300 hover:scale-105">
                             <img src={ethnicFashion}
-                            className="w-24 h-20 transition-all duration-300 ease-in-out rounded-full group-hover:scale-110 my-2 "
+                            className="w-24 h-20 transition-all duration-300 ease-in-out rounded-full group-hover:scale-110"
                             alt="ethnicFashion" />
                             <p className="text-sm tracking-wide font-light tracking-wide font-light transition-transform duration-300 group-hover:scale-105 group-hover:underline">ethnic Fashion</p>
                         </div>
 
-                        <div className="p-2 group transition-transform duration-300 hover:scale-105">
+                        <div className="flex flex-col justify-centet items-center gap-3 p-2 group transition-transform duration-300 hover:scale-105 z-50 w-auto p-2 group transition-transform duration-300 hover:scale-105">
                             <img src={tshirt}
-                            className="w-24 h-20 transition-all duration-300 ease-in-out rounded-full group-hover:scale-110 my-2 "
+                            className="w-24 h-20 transition-all duration-300 ease-in-out rounded-full group-hover:scale-110"
                             alt="t-shirt" />
                             <p className="text-sm tracking-wide font-light tracking-wide font-light transition-transform duration-300 group-hover:scale-105 group-hover:underline">T-shirt</p>
                         </div>
 
-                        <div className="p-2 group transition-transform duration-300 hover:scale-105">
+                        <div className="flex flex-col justify-centet items-center gap-3 p-2 group transition-transform duration-300 hover:scale-105 z-50 w-auto p-2 group transition-transform duration-300 hover:scale-105">
                             <img src={jeans}
-                            className="w-24 h-20 transition-all duration-300 ease-in-out rounded-full group-hover:scale-110 my-2"
+                            className="w-24 h-20 transition-all duration-300 ease-in-out rounded-full group-hover:scale-110 "
                             alt="jeans" />
                             <p className="text-sm tracking-wide font-light tracking-wide font-light transition-transform duration-300 group-hover:scale-105 group-hover:underline">Jeans</p>
                         </div>
 
-                        <div className="p-2 group transition-transform duration-300 hover:scale-105">
+                        <div className="flex flex-col justify-centet items-center gap-3 p-2 group transition-transform duration-300 hover:scale-105 z-50 w-auto p-2 group transition-transform duration-300 hover:scale-105">
                             <img src={shirts}
-                            className="w-24 h-20 transition-all duration-300 ease-in-out rounded-full group-hover:scale-110 my-2"
+                            className="w-24 h-20 transition-all duration-300 ease-in-out rounded-full group-hover:scale-110"
                             alt="shirts" />
                             <p className="text-sm tracking-wide font-light tracking-wide font-light transition-transform duration-300 group-hover:scale-105 group-hover:underline">Shirts</p>
                         </div>
 
-                        <div className="p-2 group transition-transform duration-300 hover:scale-105">
+                        <div className="flex flex-col justify-centet items-center gap-3 p-2 group transition-transform duration-300 hover:scale-105 z-50 w-auto p-2 group transition-transform duration-300 hover:scale-105">
                             <img src={touser_pants}
-                            className="w-24 h-20 transition-all duration-300 ease-in-out rounded-full group-hover:scale-110 my-2"
+                            className="w-24 h-20 transition-all duration-300 ease-in-out rounded-full group-hover:scale-110"
                             alt="touser&pants" />
                             <p className="text-sm tracking-wide font-light tracking-wide font-light transition-transform duration-300 group-hover:scale-105 group-hover:underline">Touser & Pants</p>
                         </div>
 
-                        <div className="p-2 group transition-transform duration-300 hover:scale-105">
+                        <div className="flex flex-col justify-centet items-center gap-3 p-2 group transition-transform duration-300 hover:scale-105 z-50 w-auto p-2 group transition-transform duration-300 hover:scale-105">
                             <img src={shorts}
-                            className="w-24 h-20 transition-all duration-300 ease-in-out rounded-full group-hover:scale-110 my-2"
+                            className="w-24 h-20 transition-all duration-300 ease-in-out rounded-full group-hover:scale-110"
                             alt="shorts" />
                             <p className="text-sm tracking-wide font-light tracking-wide font-light transition-transform duration-300 group-hover:scale-105 group-hover:underline">Shorts</p>
                         </div>
 
-                        <div className="p-2 group transition-transform duration-300 hover:scale-105">
+                        <div className="flex flex-col justify-centet items-center gap-3 p-2 group transition-transform duration-300 hover:scale-105 z-50 w-auto p-2 group transition-transform duration-300 hover:scale-105">
                             <img src={brands}
-                            className="w-24 h-20 transition-all duration-300 ease-in-out rounded-full group-hover:scale-110 my-2"
+                            className="w-24 h-20 transition-all duration-300 ease-in-out rounded-full group-hover:scale-110"
                             alt="Brands" />
                             <p className="text-sm tracking-wide font-light tracking-wide font-light transition-transform duration-300 group-hover:scale-105 group-hover:underline">Brands</p>
                         </div>
 
-                        <div className="p-2 group transition-transform duration-300 hover:scale-105 z-50">
+                        <div className="flex flex-col justify-centet items-center gap-3 p-2 group transition-transform duration-300 hover:scale-105 z-50 w-auto p-2 group transition-transform duration-300 hover:scale-105 z-50">
                             <img src={newArrivals}
-                            className="w-24 h-20 transition-all duration-300 ease-in-out rounded-full group-hover:scale-110 my-2"
+                            className="w-24 h-20 transition-all duration-300 ease-in-out rounded-full group-hover:scale-110"
                             alt="new Arrivals" />
                             <p className="text-sm tracking-wide font-light tracking-wide font-light transition-transform duration-300 group-hover:scale-105 group-hover:underline">New Arrivals</p>
 
@@ -132,8 +132,8 @@ function HomePage(){
                         alt="banner"
                         className="w-[90%] h-120 m-auto shadow-xl/30 rounded-lg" />
 
-                        <div className="absolute top-1/13 left-1/6 bg-[#FFB5C0] w-120 h-100 font-semibold shadow-xl/20 p-4 rounded-lg">
-                        <h1 className="text-8xl text-[#330F14] text-shadow-lg/40">GET EXTRA <br/> 10% OFF </h1>
+                        <div className="absolute top-1/13 left-1/6 bg-[#FFB5C0] lg:w-120 lg:h-100 font-semibold shadow-xl/20 p-4 rounded-lg md:w-80 md:h-60 sm:w-40 sm:h-20 ">
+                        <h1 className="lg:text-8xl text-[#330F14] text-shadow-lg/40 md:text-4xl sm:text-2xl">GET EXTRA <br/> 10% OFF </h1>
                         <span className="text-[#66323A]">ON SHOPPING FOR </span>
                         <br/>
                         <div className=" relativeflex gap-1 items-center">
