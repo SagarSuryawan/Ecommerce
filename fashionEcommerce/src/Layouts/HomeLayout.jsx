@@ -5,7 +5,7 @@ import Footer from '../Components/Footer';
 function HomeLayout( {children} ) {
     return (
 
-            <div className='bg-[#106EBE] text-[#0FFCBE] '>
+            <div className='bg-[#106EBE] text-[#0FFCBE] w-[100%] '>
                 
                 {/* topBar */}
                 <div className=' flex items-center justify-center h-10'>
